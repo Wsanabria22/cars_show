@@ -3,11 +3,11 @@
 import { CustomBottomProps } from "@/types"
 import Image from "next/image"
 
-const CustomBottom = ({title, continerStyles, handleClick}: CustomBottomProps) => {
+const CustomBottom = ({title, continerStyles, handleClick, btnType}: CustomBottomProps) => {
   return (
     <button
       disabled={false}
-      type={"button"}
+      type={btnType || "button"}
       className={`custom-btn ${continerStyles}`}
       onClick={handleClick}
     >
