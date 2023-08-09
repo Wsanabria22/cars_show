@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { CustomBottom } from ".";
+import { CustomButtom } from ".";
 
 const Navbar = () => {
   return (
@@ -16,10 +16,10 @@ const Navbar = () => {
             className="object-contain"
           />
         </Link>
-        <CustomBottom 
+        <CustomButtom 
           title="Sign In"
           btnType="button"
-          continerStyles="text-primary-blue rounded-full bg-white min-w-[130lpx]"
+          containerStyles="text-primary-blue rounded-full bg-white min-w-[130lpx]"
         />
       </nav>
     </header>
