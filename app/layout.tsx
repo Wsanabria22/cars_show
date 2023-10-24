@@ -7,15 +7,12 @@ export const metadata: Metadata = {
   description: 'Discover the best cars in the world.',
 }
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+export default function RootLayout({ children, }: {children: React.ReactNode}) 
+{
   return (
     <html lang="en">
       <body className="relative">
-        <Navbar />
+        <Navbar />  
         {children}
         <Footer />
       </body>

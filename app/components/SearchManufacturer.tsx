@@ -5,7 +5,8 @@ import Image from "next/image";
 import { useState, Fragment } from 'react';
 import { manufacturers } from '@/constants';
 
-const SearchManufacturer = ({ manufacturer, setManufacturer}: SearchManufacturerProps) => {
+const SearchManufacturer = ({ manufacturer, setManufacturer}: SearchManufacturerProps) => 
+{
   const [query, setQuery] = useState('');
   const filteredManufacturer = 
     query !== "" 
