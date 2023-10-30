@@ -71,7 +71,7 @@ const SearchBar = () => {
         />
         <input type="text" name='model' value={model} 
           onChange={(e) => setModel(e.target.value)}
-          aria-placeholder='Tiguan'
+          aria-placeholder='Tiguan...'
           className='searchbar__input'
         />
         <SearchButton otherClasses="sm:hidden"/>
